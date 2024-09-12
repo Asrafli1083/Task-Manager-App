@@ -1,0 +1,3 @@
+# ignore these file because not needed
+.env
+d.sqlite3

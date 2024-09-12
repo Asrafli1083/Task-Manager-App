@@ -1,0 +1,4 @@
+# making git repository to deploy web app using choreo
+
+# ignore environment var directory
+env/

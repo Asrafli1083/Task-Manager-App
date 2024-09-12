@@ -1,0 +1,13 @@
+# specify endpoint to deploy
+version: 0.1
+
+# basic setting for endpoints to deploy
+# port should be matching the port on deployment server
+# type should be matching with the name
+# context: base path to expose
+endpoints: 
+  - name:"REST API"
+    PORT: 8000
+    type: REST
+    networkVisibility: Public
+    context: /
